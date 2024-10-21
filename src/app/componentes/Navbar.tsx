@@ -9,7 +9,7 @@ export default function Navbar() {
           height={304}
           src="/assets/Logo white.png"
           alt="logo"
-          className="w-[120px]  md:w-[260px] md:h-[77.76px]"
+          className="w-[160px]  md:w-[260px] md:h-[77.76px]"
        
 
         />

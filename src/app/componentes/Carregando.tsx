@@ -20,7 +20,7 @@ export default function Carregando() {
                 height={100}
                 className="mb-4 " 
             />
-            <h1 className="text-2xl font-semibold text-center text-white">
+            <h1 className="text-2xl font-semibold text-center text-white p-5">
                 Trazendo Soluções para seu negócio
             </h1>
         </div>

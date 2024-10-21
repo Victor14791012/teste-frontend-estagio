@@ -29,30 +29,30 @@ export default function Home() {
         <div className=" inset-0 z-0">
         <div className="absolute flex flex-col justify-between w-full h-full px-12 z-5 ">
           <Image
-            width={347}
-            height={347}
+            width={150}
+            height={150}
             src="/assets/dot.png"
             alt="logo"
-            className="saturate-150 self-end"
+            className="saturate-150 self-end md:h-[347px] md:w-[347px]"
             quality={100}
           />
           <Image
-            width={347}
-            height={347}
+            width={150}
+            height={150}
             src="/assets/dot.png"
             alt="logo"
-            className="saturate-150 self-start"
+            className="saturate-150 self-start md:h-[347px] md:w-[347px]"
             quality={100}
           />
         </div>
           <Navbar />
           <div className="flex flex-col items-center text-center justify-center w-full ">
-            <h1 className="font-bold text-[32px] md:text-[40px] mt-4">
+            <h1 className="font-bold text-[32px] mx-4 md:mx--0 md:text-[40px] mt-4">
               Eleve sua experiência com a gestão inteligente
               <br />de processos.
             </h1>
             <div className=" w-auto md:w-[688px] mt-4">
-              <p className=" text-[16px] md:text-[20px]">
+              <p className=" text-[16px] md:text-[20px] p-4">
                 Diga adeus às planilhas e papéis!
                 Nosso sistema transforma a forma como você gerencia seus casos.
                 Automatize tarefas, centralize informações e ganhe mais tempo para
@@ -60,16 +60,23 @@ export default function Home() {
               </p>
             </div>
             
-            <div className="mt-8 flex flex-col space-y-4 md:flex-row md:space-x-4 md:space-y-0 items-center">
+            <div className="mt-8 flex flex-col space-y-4 md:flex-row md:space-x-4 md:space-y-0 items-center z-0">
+            <button 
+  type="button" 
+  className="w-full md:w-auto md:h-[42px] text-nav-blue bg-white font-bold py-3 px-8 shadow-md transition duration-300 z-0"
+  onClick={() => document.getElementById('ferramenta').scrollIntoView({ behavior: 'smooth' })}
+>
+  Conheça nossa ferramenta
+</button>
+
+
+
   <button 
-    type="button" 
-    className="w-full md:w-auto md:h-[42px] text-nav-blue bg-white font-bold py-3 px-8 shadow-md transition duration-300 z-0">
-    Conheça nossa ferramenta
-  </button>
-  <button 
-    className="w-full md:w-auto md:h-[42px] text-white bg-transparent border border-white font-bold py-3 px-8 shadow-md transition duration-300 z-0 hover:bg-white hover:text-blue-950">
+    className="w-full md:w-auto md:h-[42px] text-white bg-transparent border border-white font-bold py-3 px-8 shadow-md transition duration-300 z-0 hover:bg-white hover:text-nav-blue"
+    onClick={() => document.getElementById('planos').scrollIntoView({ behavior: 'smooth' })} >
     Conheça nossos planos
   </button>
+
 </div>
 
           </div>
@@ -102,7 +109,7 @@ export default function Home() {
             quality={100}
           />
 
-          <div className="space-y-3 w-full">
+          <div id="ferramenta" className="space-y-3 w-full">
             <h1 className="font-bold text-nav-blue text-[20px]">Foco na otimização de processos</h1>
             <p className="text-[#6B7280] font-sans text-[16px]">
               <i className="bi bi-check-circle-fill text-nav-blue text-[16px]"></i> 
@@ -249,7 +256,7 @@ export default function Home() {
 </div>
 
 
-<div className="flex flex-col h-auto md:h-auto justify-center items-center gap-4 text-center p-4">
+<div id="planos" className="flex flex-col h-auto md:h-auto justify-center items-center gap-4 text-center p-4">
   <h1 className="text-[#1D79FB] font-bold text-[24px] sm:text-[32px]">Nossos planos</h1>
   <p className="text-[#6B7280] text-[18px] sm:text-[22px]">
     Encontre o melhor plano de acordo com a necessidade do seu escritório.
