@@ -1,44 +1,36 @@
-# SoftOwn Solutions Front end Test
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Objetivo
-O objetivo deste teste é avaliar suas habilidades em front-end, utilizando TypeScript e frameworks modernos como React, Next.js, Vite ou outros de sua escolha. O desenvolvedor deverá criar uma landing page seguindo os critérios abaixo:
+## Getting Started
 
-## Critérios de Avaliação
-* Legibilidade de Código
-* Estrutura de pastas
-* Lógica
-* Conhecimentos na linguagem utilizada
-* Criatividade
+First, run the development server:
 
-## Requisitos de Sistema
-* Utilizar TypeScript | JavaScript no desenvolvimento.
-* Frameworks permitidos: React, Next.js, Vite ou similar.
-* Utilizar Tailwind CSS para estilização. Caso não tenha familiaridade com Tailwind, é permitido o uso de CSS tradicional.
-* Responsividade: A landing page deve ser responsiva, garantindo uma boa visualização em dispositivos móveis e desktops.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## Diferenciais (não obrigatórios)
-* Uso de TypeScript para garantir a segurança de tipos e a robustez do código.
-* Implementação de animações que contribuam para a interação e fluidez da página.
-* Foco na experiência do usuário (UX) para garantir uma navegação agradável e eficiente.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Exemplos de Implementações Extras:
-* Animações de transição ao rolar a página.
-* Seções que aparecem gradualmente ao rolar a página.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Layout e Recursos:
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-* O layout da página pode ser encontrado através do seguinte link: [Figma](https://www.figma.com/design/eRukoBcOA63ReS3teDnLKR/Teste).
-* As imagens necessárias para o projeto estão disponíveis aqui: [Link das Imagens](https://drive.google.com/drive/folders/1NI_go687-s_9b8H-VrqBxqUL48liKhng?usp=sharing).
+## Learn More
 
-O candidato é livre a usar as técnicas de desenvolvimento que achar melhor, desde que atenda os requisitos mínimos no prazo.
+To learn more about Next.js, take a look at the following resources:
 
-## Prazo
-O candidato deverá enviar o link do repositório onde o código foi hospedado, como por exemplo no próprio GitHub.
-O prazo para conclusão do teste é de sete dias com data de entrega prevista para o dia 21/10/2024
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### Envio do Projeto: O link do repositório deve ser enviado para o e-mail: `contato@softownsolutions.com`.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## bolsa-auxílio
+## Deploy on Vercel
 
-* A bolsa-auxílio para o estágio varia entre R$ 700,00 e R$ 2.000, dependendo do nível de conhecimento e da experiência do candidato. A forma de contratação pode ser ajustada de acordo com a carga horária e as condições acordadas durante o processo seletivo.
-* É necessário apresentar comprovação de matrícula ativa em uma universidade para estar apto à vaga.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
