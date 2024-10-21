@@ -258,7 +258,7 @@ export default function Home() {
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-6xl mt-4">
     {/* Card 1: Plano Inicial */}
     <div className="bg-white rounded-lg border border-gray-200 p-6 flex flex-col gap-2">
-      <h1 className="font-bold text-[#1D79FB] text-1/3">Inicial</h1>
+      <h1 className="font-bold text-[#1D79FB] text-[22px]">Inicial</h1>
       <p className="text-gray-700 mt-2 text-[16px]">Ideal para pequenos escritórios ou startups. Ideal para pequenos escritórios ou startups.</p>
       <p className="text-nav-blue gap-2 my-2 font-extrabold flex justify-center items-center flex-row text-[50px]">
         R$30 <span className="text-gray-700 text-[20px] font-light mt-5">/mês</span>

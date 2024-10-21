@@ -37,7 +37,7 @@ export default function Faq() {
   ];
 
   return (
-    <section className="py-24">
+    <section className="py-24 bg-[#F8F9FA] ">
       <div className="mx-auto max-w-7xl px-4 lg:w-[780px]">
         <div className="flex flex-col justify-center items-center mx-auto max-w-full">
           <div className="w-full">

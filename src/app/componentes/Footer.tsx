@@ -11,18 +11,18 @@ export default function Footer() {
           src="/assets/Logo Footer.png"
           alt="logo"
           quality={100}
-          className="w-auto h-[91px]"
+          className="w-[131px] h-[91px] mb-4"
         />
        </div>
        
 
-        <p className="text-white text-center text-xs md:text-base mt-4 text-[20px]"> © SoftOwn 2024. Todos os direitos reservados.</p>
-        <div className="flex justify-center flex-row mt-4 text-white gap-x-1">
-        <i className="bi bi-facebook"></i>
-        <i className="bi bi-linkedin"></i>
-        <i className="bi bi-instagram"></i>
-        <i className="bi bi-twitter-x"></i>
-        <i className="bi bi-youtube  "></i>
+        <p className="text-white text-center text-xs md:text-[20px] mt-4 text-[20px]"> © <strong>SoftOwn 2024.</strong> Todos os direitos reservados.</p>
+        <div className="flex justify-center flex-row mt-8 text-white gap-x-[20px] ">
+        <i className="bi bi-facebook text-[20px]"></i>
+        <i className="bi bi-linkedin text-[20px]"></i>
+        <i className="bi bi-instagram text-[20px]"></i>
+        <i className="bi bi-twitter-x text-[20px]"></i>
+        <i className="bi bi-youtube text-[20px]"></i>
         </div>
     </div>
   );
