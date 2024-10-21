@@ -64,18 +64,30 @@ export default function Home() {
             <button 
   type="button" 
   className="w-full md:w-auto md:h-[42px] text-nav-blue bg-white font-bold py-3 px-8 shadow-md transition duration-300 z-0"
-  onClick={() => document.getElementById('ferramenta').scrollIntoView({ behavior: 'smooth' })}
+  onClick={() => {
+    const elemento = document.getElementById('ferramenta');
+    if (elemento) {
+      elemento.scrollIntoView({ behavior: 'smooth' });
+    }
+  }}
 >
   Conheça nossa ferramenta
 </button>
 
 
 
-  <button 
-    className="w-full md:w-auto md:h-[42px] text-white bg-transparent border border-white font-bold py-3 px-8 shadow-md transition duration-300 z-0 hover:bg-white hover:text-nav-blue"
-    onClick={() => document.getElementById('planos').scrollIntoView({ behavior: 'smooth' })} >
-    Conheça nossos planos
-  </button>
+
+<button 
+  className="w-full md:w-auto md:h-[42px] text-white bg-transparent border border-white font-bold py-3 px-8 shadow-md transition duration-300 z-0 hover:bg-white hover:text-nav-blue"
+  onClick={() => {
+    const elemento = document.getElementById('planos');
+    if (elemento) {
+      elemento.scrollIntoView({ behavior: 'smooth' });
+    }
+  }}
+>
+  Conheça nossos planos
+</button>
 
 </div>
 
